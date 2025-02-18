@@ -30,3 +30,41 @@
 .navbar-toggler{
     border: 2px solid var(--color-3);
 }
+
+.add-book-sc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.table-responsive{
+    padding: 10px;
+}
+
+.col-btn{
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.list-group{
+    border: 1px solid var(--color-1);
+}
+
+.todo-list-sc{
+    padding: 16px;
+}
+
+.list-group-item{
+    padding: 16px;
+    border: 1px solid var(--color-3);
+}
+
+.cont-list-ins{
+    list-style: none;
+    padding: 20px;
+    border: 1px solid var(--color-3);
+}
