@@ -1,0 +1,25 @@
+/* Stile Pagina Del Sito */
+
+:root{
+    --color-1: #212529;
+    --color-2: #FFFFFF;
+}
+
+.navbar-brand img{
+    width: 60px;
+    padding: 2px;
+    height: 60px;
+}
+
+#Navbar{
+    background-color: var(--color-1);
+    color: var(--color-2);
+}
+
+#Navbar li a{
+    color: var(--color-2);
+}
+
+.navbar-toggler.navbar-toggler-icons{
+    color: var(--color-2);
+}
