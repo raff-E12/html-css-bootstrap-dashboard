@@ -3,6 +3,7 @@
 :root{
     --color-1: #212529;
     --color-2: #FFFFFF;
+    --color-3: #444343;
 }
 
 .navbar-brand img{
@@ -20,6 +21,12 @@
     color: var(--color-2);
 }
 
-.navbar-toggler.navbar-toggler-icons{
-    color: var(--color-2);
+#icon{
+    color: var(--color-3);
+    padding: 6px;
+    font-size: 20px;
+}
+
+.navbar-toggler{
+    border: 2px solid var(--color-3);
 }
