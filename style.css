@@ -39,24 +39,16 @@
     flex-direction: row;
 }
 
-.table-responsive{
-    padding: 10px;
-}
-
 .col-btn{
-    width: 90%;
+    width: auto;
     display: flex;
     gap: 10px;
-    padding: 10px;
+    padding: 0;
 }
 
 .list-group{
     border: 1px solid var(--color-1);
     width: 100%;
-}
-
-.todo-list-sc{
-    padding: 16px;
 }
 
 .list-group-item{
@@ -67,11 +59,29 @@
 
 .cont-list-ins{
     list-style: none;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid var(--color-3);
+}
+
+.main-sc{
+    padding: 10px;
 }
 
 .list-top{
     background-color: var(--color-3);
     color: var(--color-2);
+}
+
+.col-12.col-lg-7{
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form-sc{
+    padding: 10px;
 }
