@@ -12,6 +12,10 @@
     height: 60px;
 }
 
+.container-fluid.row{
+    width: 104%;
+}
+
 #Navbar{
     background-color: var(--color-1);
     color: var(--color-2);
@@ -84,4 +88,20 @@
 
 .input-form-sc{
     padding: 10px;
+}
+
+.label-sc{
+    font-weight: 700;
+    padding: 4px;
+}
+
+.main-sc{
+    width: 100%;
+    padding: 30px;
+}
+
+.submit-sc{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
 }

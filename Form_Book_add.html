@@ -41,5 +41,72 @@
           </div>
         </div>
       </nav>
+      <main class="container-fluid main-sc">
+         <section class="row container-fluid">
+            <div class="col-10">
+                <span class="container"><h3>Nuovo Libro</h3></span>
+            </div>
+            <form action="get" class="form-sc">
+              <div class="row p-2 container-fluid">
+                <div class="col-6">
+                    <label for="First-name"  class="label-sc">Nome Autore</label>
+                    <input class="form-control" type="text" placeholder="Nome.." aria-label="default input example" required>
+                </div>
+                <div class="col-6">
+                    <label for="Last-Name" class="label-sc">Cognome Autore</label>
+                    <input class="form-control" type="text" placeholder="Cognome.." aria-label="default input example" required>
+                </div>
+              </div>
+              <div class="row container-fluid">
+                <div class="col-100 p-3">
+                    <label for="Title" class="label-sc">Titolo</label>
+                    <input class="form-control" type="text" placeholder="Inserisci Titolo..." aria-label="default input example" required>
+                    <div class="form-text p-2">Titolo versione italiana.</div>
+                </div>
+              </div>
+                <div class="row container-fluid">
+                    <div class="col-100 col-lg-4">
+                        <label for="Gender" class="label-sc">Genere</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Scegli il Genere</option>
+                            <option value="1">Maschio</option>
+                            <option value="2">Femmina</option>
+                            <option value="3">Non Binario</option>
+                          </select>
+                      </div>
+                  <div class="col-100 col-lg-4">
+                    <label for="Years" class="label-sc">Anno di Pubblicazione</label>
+                    <input class="form-control" type="text" placeholder="Inserisci l'anno..." aria-label="default input example">
+                  </div>
+                    <div class="col-100 col-lg-4">
+                        <label for="ISBN" class="label-sc">ISBN#</label>
+                        <input class="form-control" type="text" placeholder="Inserisci il codice ISBN#.." aria-label="default input example" required>
+                    </div>
+                </div>
+                <div class="row container-fluid">
+                    <div class="col-100"><hr></div>
+                </div>
+                <div class="row container-fluid">
+                    <div class="col-100 p-3 submit-sc">
+                        <label for="ISBN" class="label-sc">Note</label>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Note.." id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Aggiungi eventuali note sul libro...</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Disponibile anche in digitale.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 container-fluid">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                      </div>
+                </div>
+            </form>
+         </section>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
